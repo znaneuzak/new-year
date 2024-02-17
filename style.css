@@ -1,0 +1,69 @@
+header{
+    background-color: rgb(215, 234, 251);
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size:xx-large;
+    background-image: url(https://imgtest.mir24.tv/uploaded/images/crops/2020/June/870x489_0x57_detail_crop_5d231316f6fe37936fba7f908a2459f7ce0948968a16f22d8e2b23ba98cc8b6b.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(215, 234, 251);
+    height: 300px;
+    color: black;
+    font-size:20px ;
+    background: repeating-linear-gradient(white, blue, green);
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(209, 233, 255);
+    float: left;
+    padding: 10px;
+    text-align: justify;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    margin:0;
+}
+.f_left{
+    width: 30%;
+    float: left;
+}
+.f_left img{
+    padding-top: 20px;
+}
+.f_right{
+    width: 70%;
+    float: right;
+
+}
